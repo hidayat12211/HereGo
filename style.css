@@ -1,0 +1,185 @@
+*{
+
+    box-sizing: border-box;
+}
+nav{
+    border-radius: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin: 1rem 2rem;
+}
+.logo img{
+    width: 33px;
+    height: 36px;
+    background-position: center;
+    border-radius: 50%;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.leftsection{
+    width: 26%;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 1rem;
+}
+.rightsection{
+    width: 73%;
+    border-radius: 15px;
+    margin-top: 1rem;
+}
+/* Responsive Media Quries */
+
+@media screen and (max-width:770px){
+    .card_item{
+        flex-direction: column;
+    } 
+    .item{
+        width: 100%;
+    }
+    .item p{
+        font-size: 25px;
+    }
+  
+    
+}
+
+@media screen and (max-width:517px) {
+    .design{
+        flex-direction: column;
+        width: 100%;
+    }
+    .item{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:977px){
+    section{
+        flex-direction: column;
+    }
+    .leftsection{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .rightsection{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:798px){
+    .NextPart{
+       flex-direction: column;
+        margin-bottom: 2rem;
+    }
+    .btom{
+       flex-direction: column-reverse;
+    }
+    .pic img{
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .bg_img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:439px){
+    .btom h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    
+}
+/* End of the responsive Quries */
+
+section ul li i{
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.item{
+    border-radius: 15px;
+     background-position: center;
+    background-size: cover;
+    font-family: cursive;
+}
+
+.card_item{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+
+.NextPart{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    gap: 2rem;
+  
+}
+.design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
+.designicon i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    font-size: 80px;
+    height: 150px;
+    box-shadow: 0.5rem 0.5rem gray, -0.5rem -0.5rem black;
+}
+.bg_img{
+    color: white;
+    background-image: url(G5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    padding: 15px;
+}
+.btom{
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
+    border-radius: 15px;
+    background-color: white;
+}
+.pic{
+    padding: 12px;
+    box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem gray;
+}
+.pic img{
+    width: 250px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 2rem;
+    text-align: center;
+    background-color: orange;
+}
